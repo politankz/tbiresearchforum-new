@@ -519,6 +519,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: David Horton (GH6QLY366F)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -529,6 +530,7 @@
 				INFOPLIST_FILE = "TBIResearchForum-Web/TBIResearchForum-Web-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "TBI Forum";
+				PROVISIONING_PROFILE = "EAF8C765-F3B1-498F-9889-E13496FC64F3";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -538,7 +540,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: David Horton (GH6QLY366F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Horton (GH6QLY366F)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBIResearchForum-Web/TBIResearchForum-Web-Prefix.pch";
@@ -547,7 +550,8 @@
 				INFOPLIST_FILE = "TBIResearchForum-Web/TBIResearchForum-Web-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "TBI Forum";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "EAF8C765-F3B1-498F-9889-E13496FC64F3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EAF8C765-F3B1-498F-9889-E13496FC64F3";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
