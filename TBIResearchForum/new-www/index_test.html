@@ -8,7 +8,6 @@
         <title>TBI_Research_Forum</title>
         
         <link rel="stylesheet" href="jquery.mobile-1.3.1.min.css" />
-        <link rel="stylesheet" href="my.css" />
         
         <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="jquery.mobile-1.3.1.min.js"></script>
@@ -26,6 +25,8 @@
                                                                                     }, false);
                                     }, false);
             </script>
+        
+        <link rel="stylesheet" href="my.css" />
 
     </head>
     
@@ -43,12 +44,10 @@
             <div id="noscroll">
             <div data-role="content" style="padding: 0%">
                 <div>
-                    <div class="app">
                         <div id="deviceready">
                             <p class="event listening"></p>
                             <p class="event received"></p>
                         </div>
-                    </div>
                     <p>
                     <br>
                     </p>
@@ -88,26 +87,26 @@
                             </div>
                 </a>
             </div>
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon="" class="ui-btn-active ui-state-persist tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon="" class="tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="tabbar-survey-btn">
                             Survey
                         </a>
                     </li>
@@ -139,7 +138,7 @@
                     </p>
                 </div>
                 <div style=" text-align:center" id="info-about-image-title" class="info-about-images">
-                    <img id="info-about-image-title" style="width: 312px; height: 97px" src="images/title_only-web.png">
+                    <img id="info-about-image-title" style="width: 312px; height: 97px; margin-left: -10px;" src="images/title_only-web.png">
                         </div>
                 <div id="info-about-text-intro" class="info-about-text">
                     <p style="text-align: center;" data-mce-style="text-align: center;">
@@ -254,9 +253,7 @@
                             </span>
                         
                         <p>
-                        <a href="http://www.davidmhorton.com"
-                            title="www.davidmhorton.com" target="_blank" data-transition="fade">
-                            www.davidmhorton.com
+                        <a href="http://www.davidmhorton.com" onclick="window.open(this.href,'_system'); return false;">www.davidmhorton.com
                         </a>
                         </p>
                         <p>
@@ -265,26 +262,26 @@
                                 
                     </div>
                     </div>
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon=""  class="ui-btn-active ui-state-persist tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid" class="tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="tabbar-survey-btn">
                             Survey
                         </a>
                     </li>
@@ -306,7 +303,7 @@
             </div>
             <div data-role="content">
                 <div style="" id="info-psc-image-title" class="info-about-images">
-                    <img id="info-psc-image-title" style="width: 286px; height: 241px" src="images/psc_logo-web.png">
+                    <img id="info-psc-image-title" style="width: 286px; height: 241px; margin-left: -35px;" src="images/psc_logo-web.png">
                         </div>
                 <div id="info-about-text-intro" class="info-about-text">
                     <p style="text-align: center;" data-mce-style="text-align: center;">
@@ -349,16 +346,14 @@
                     </p>
                     <p style="text-align: left;" data-mce-style="text-align: left;">
                     <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
+                        <strong>
+                            Polytrauma Rehabilitation Center (PRC) and Comprehensive
+                        </strong>
+                        <br>
+                        <strong>
+                            Rehabilitation Center (CRC)
+                        </strong>
                     </span>
-                    </p>
-                    <p>
-                    <strong>
-                        Polytrauma Rehabilitation Center (PRC) and Comprehensive
-                    </strong>
-                    <br>
-                    <strong>
-                        Rehabilitation Center (CRC)
-                    </strong>
                     </p>
                     <p style="text-align: left;" data-mce-style="text-align: left;">
                     <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
@@ -419,58 +414,58 @@
                         and veterans.
                     </span>
                     </p>
-                    <p style="text-align: left;" data-mce-style="text-align: left;">
                     <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
+                    <p style="text-align: left;" data-mce-style="text-align: left;">
                         Polytrauma System of Care Teams
-                    </span>
                     </p>
+                    </span>
+                    <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
+                        <p style="text-align: left;" data-mce-style="text-align: left;">
+                        • Physicians
+                        <br>
+                        • Admission Coordinators
+                        <br>
+                        • Nursing Staff
+                        <br>
+                        • Social Work Team
+                        <br>
+                        • Occupational Therapy
+                        <br>
+                        • Speech-Language Pathology
+                        <br>
+                        • Recreation Therapy
+                        <br>
+                        • Physical Therapy
+                        <br>
+                        • Psychology Staff
+                        </p>
+                    </span>
                     <p style="text-align: left;" data-mce-style="text-align: left;">
                     <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
+                        Additional Resources to our System of Care
+                        <br>
+                        • Assistive Technology (AT) Center
+                        <br>
+                        • Chaplain Service
+                        <br>
+                        • Defense and Veterans Brain Injury Center (DVBIC)
+                        <br>
+                        • Fisher House
+                        <br>
+                        • Military Liaisons
+                        <br>
+                        • Research
+                        <br>
+                        • Spinal Cord Injury
+                        <br>
+                        • Stanford University
+                        <br>
+                        • War Related Injury and Illness Study Center
+                        <br>
+                        • Western Blind Rehabilitation Center
+                        </p>
                     </span>
-                    </p>
-                    <p>
-                    • Physicians
-                    <br>
-                    • Admission Coordinators
-                    <br>
-                    • Nursing Staff
-                    <br>
-                    • Social Work Team
-                    <br>
-                    • Occupational Therapy
-                    <br>
-                    • Speech-Language Pathology
-                    <br>
-                    • Recreation Therapy
-                    <br>
-                    • Physical Therapy
-                    <br>
-                    • Psychology Staff
-                    </p>
-                    <p>
-                    Additional Resources to our System of Care
-                    </p>
-                    <p>
-                    • Assistive Technology (AT) Center
-                    <br>
-                    • Chaplain Service
-                    <br>
-                    • Defense and Veterans Brain Injury Center (DVBIC)
-                    <br>
-                    • Fisher House
-                    <br>
-                    • Military Liaisons
-                    <br>
-                    • Research
-                    <br>
-                    • Spinal Cord Injury
-                    <br>
-                    • Stanford University
-                    <br>
-                    • War Related Injury and Illness Study Center
-                    <br>
-                    • Western Blind Rehabilitation Center
-                    </p>
+                    
                     <p style="text-align: left;" data-mce-style="text-align: left;">
                     <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                         <br>
@@ -478,26 +473,26 @@
                     </p>
                 </div>
             </div>
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon="" class="ui-btn-active ui-state-persist tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon=""  class="tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="tabbar-survey-btn">
                             Survey
                         </a>
                     </li>
@@ -523,16 +518,20 @@
                         </div>
                 <div id="info-about-text-intro" class="info-about-text">
                     <p style="text-align: center;" data-mce-style="text-align: center;">
+                    <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                     <strong>
                         Defense and Veterans Brain Injury Center (DVBIC)
                     </strong>
+                        </span>
                     </p>
                     <p style="text-align: left;" data-mce-style="text-align: left;">
+                    <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                     <strong>
-                        Program Overview
+                        Program Overview:
                     </strong>
-                    :
+                        </span>
                     </p>
+                    <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                     <p style="text-align: left;" data-mce-style="text-align: left;">
                     DVBIC and the Department of Veterans Affairs (VA) Veterans Health Administration
                     are partners in clinical care, education, research and care coordination
@@ -545,15 +544,19 @@
                     and provision of health care for patients with TBI and other serious injuries
                     within the VA system and between the VA and Department of Defense.
                     </p>
+                        </span>
                     <p style="text-align: left;" data-mce-style="text-align: left;">
                     <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                     </span>
                     </p>
+                    <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                     <p>
                     <strong>
                         About our Site
                     </strong>
                     </p>
+                        </span>
+                    <span color="#ffffff" data-mce-style="color: #ffffff;" style="color: #ffffff;">
                     <p>
                     DVBIC Palo Alto is both integral to and has been a fundamental part of
                     the success of VA Palo Alto Health Care System, working in partnership
@@ -586,6 +589,7 @@
                     <p>
                     ▪ Clinical investigative research initiatives
                     </p>
+                    </span>
                     <p>
                         <br>
                     </p>
@@ -595,26 +599,26 @@
                     </p>
                 </div>
             </div>
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon="" class="ui-btn-active ui-state-persist tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon="" class="tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="tabbar-survey-btn">
                             Survey
                         </a>
                     </li>
@@ -806,26 +810,26 @@
             <p>
             <br>
             </p>
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon="" class="tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon="" class="ui-btn-active ui-state-persist tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="tabbar-survey-btn">
                             Survey
                         </a>
                     </li>
@@ -891,26 +895,26 @@
                     </li>
                 </ul>
             </div>
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon="" class="tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon="" class="tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="ui-btn-active ui-state-persist tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="tabbar-survey-btn">
                             Survey
                         </a>
                     </li>
@@ -936,26 +940,26 @@
                 
                 <object style="margin-left: -15px; margin-top: -15px; padding: 0;" data="http://www.surveymonkey.com/s/2QFTBFZ" width="320" height="1900"> <embed style="margin: 0;padding: 0;" src="http://www.surveymonkey.com/s/2QFTBFZ" width="320"> </embed> Error: Embedded data could not be displayed. </object>
                 
-            <div id="tab-bar" data-role="tabbar" data-position="fixed" data-iconpos="top" data-theme="a"
+            <div id="tab-bar" data-role="tabbar" data-iconpos="top" data-theme="a"
                 class="navigation-objects">
                 <ul>
                     <li>
-                        <a href="#page1" data-transition="none" data-theme="" data-icon="info">
+                        <a href="#page1" data-transition="none" data-theme="" data-icon="" class="tabbar-info-btn">
                             Info
                         </a>
                     </li>
                     <li>
-                        <a href="#page5" data-transition="none" data-theme="" data-icon="grid">
+                        <a href="#page5" data-transition="none" data-theme="" data-icon="" class="tabbar-posters-btn">
                             Posters
                         </a>
                     </li>
                     <li>
-                        <a href="#page6" data-transition="none" data-theme="" data-icon="alert">
+                        <a href="#page6" data-transition="none" data-theme="" data-icon="" class="tabbar-speakers-btn">
                             Speakers
                         </a>
                     </li>
                     <li>
-                        <a href="#page7" data-transition="none" data-theme="" data-icon="check">
+                        <a href="#page7" data-transition="none" data-theme="" data-icon="" class="ui-btn-active ui-state-persist tabbar-survey-btn">
                             Survey
                         </a>
                     </li>

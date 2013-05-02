@@ -1,5 +1,45 @@
 /* Put your custom CSS here */
 
+/*
+.ui-btn-active{
+    background-image:url('images/brain_icon_white_sml.png');
+    /*
+    background:#e22af3;
+    
+    border:1px solid #2373a5;
+    font-weight:700;color:#fff;cursor:pointer;text-shadow:0 1px 0 #3373a5;text-decoration:none;background-image:-webkit-gradient(linear,left top,left bottom,from(#5393c5),to(#6facd5));background-image:-webkit-linear-gradient(#5393c5,#6facd5);background-image:-moz-linear-gradient(#5393c5,#6facd5);background-image:-ms-linear-gradient(#5393c5,#6facd5);background-image:-o-linear-gradient(#5393c5,#6facd5);background-image:linear-gradient(#5393c5,#6facd5);font-family:Helvetica,Arial,sans-serif
+     
+}
+ */
+
+.tabbar-info-btn {
+    background-image:url('images/brain_icon_lrg_white.png');
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    background-position: 27px 3px;
+}
+
+.tabbar-posters-btn {
+    background-image:url('images/calendar_large_white.png');
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    background-position: 27px 3px;
+}
+
+.tabbar-speakers-btn {
+    background-image:url('images/presenter_icon_large_white.png');
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    background-position: 27px 3px;
+}
+
+.tabbar-survey-btn {
+    background-image:url('images/survey_tab_icon_large_white.png');
+    background-repeat:no-repeat;
+    background-size: 25px 25px;
+    background-position: 27px 3px;
+}
+
 
 /* Generic icon styles */
 
