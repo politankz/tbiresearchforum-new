@@ -15,6 +15,11 @@
      
 }
  */
+ 
+.info-about {
+	background-image: url('images/grey_back-web.jpg');
+	background-color:#454545;
+}
 
 .ui-icon-arrow-r {
     background-image: url('images/ios-right-arrow-color.png');
@@ -30,7 +35,7 @@
     background-image:url('images/brain_icon_lrg_white.png');
     background-repeat:no-repeat;
     background-size: 25px 25px;
-    background-position: 27px 3px;
+    background-position:center top;
 }
 
 .tabbar-posters-btn {
