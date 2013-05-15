@@ -15,10 +15,59 @@
      
 }
  */
- 
+.survey-page {
+	height: 100%;
+	width: 100%;
+}
+
 .info-about {
 	background-image: url('images/grey_back-web.jpg');
 	background-color:#454545;
+}
+
+.poster-details {
+	background-image: url('images/grey_back-web.jpg');
+	background-color:#454545;
+}
+
+.poster-details p {
+	font-size:20px;
+	text-transform:none;
+}
+
+.poster-list {
+	background-image: url('images/grey_back-web.jpg');
+	background-color:#454545;
+}
+
+.poster-list p {
+	font-size:20px;
+	text-transform:none;
+}
+
+.poster-list a {
+	font-size:20px;
+	text-transform:none;
+}
+
+.speaker-list {
+	background-image: url('images/grey_back-web.jpg');
+	background-color:#454545;
+}
+
+.speaker-list p {
+	font-size:20px;
+	text-transform:none;
+}
+
+.speaker-list  a {
+	font-size:20px;
+	text-transform:none;
+}
+
+.info-about p {
+	font-size:20px;
+	text-transform:none;
 }
 
 .ui-icon-arrow-r {
@@ -42,21 +91,21 @@
     background-image:url('images/calendar_large_white.png');
     background-repeat:no-repeat;
     background-size: 25px 25px;
-    background-position: 27px 3px;
+    background-position:center top;
 }
 
 .tabbar-speakers-btn {
     background-image:url('images/presenter_icon_large_white.png');
     background-repeat:no-repeat;
     background-size: 25px 25px;
-    background-position: 27px 3px;
+    background-position:center top;
 }
 
 .tabbar-survey-btn {
     background-image:url('images/survey_tab_icon_large_white.png');
     background-repeat:no-repeat;
     background-size: 25px 25px;
-    background-position: 27px 3px;
+    background-position:center top;
 }
 
 
@@ -547,4 +596,5 @@ only screen and (min-resolution: 240dpi) {
     .content-primary {
         width: 60%;
     }
+    
 }
