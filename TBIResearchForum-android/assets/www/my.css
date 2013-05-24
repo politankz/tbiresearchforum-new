@@ -15,6 +15,25 @@
      
 }
  */
+ 
+#tab-bar {
+	
+	height: 10%;
+	
+}
+
+.ui-grid-c {
+	height:100px;
+}
+
+.ui-block-a {
+	height:100px;
+}
+
+.ui-block-a a {
+	height:100px;
+}
+
 .survey-page {
 	height: 100%;
 	width: 100%;
@@ -80,7 +99,7 @@
 }
 
 
-.tabbar-info-btn {
+.tabbar-info-btn {	
     background-image:url('images/brain_icon_lrg_white.png');
     background-repeat:no-repeat;
     background-size: 25px 25px;
